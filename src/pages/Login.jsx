@@ -8,6 +8,7 @@ const LoginPage = ({ onLogin }) => {
       <Row className="justify-content-center w-100">
         <Col xs={12} sm={10} md={8} lg={12} xl={4}>
           <Login onLogin={onLogin} />
+          
         </Col>
       </Row>
     </Container>

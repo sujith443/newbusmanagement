@@ -93,6 +93,17 @@ const Login = () => {
             />
           </Form.Group>
           
+        <div className='text-center'>
+          <h5>
+            Credentials
+          </h5>
+          <p>
+           <strong>Username </strong> : Admin
+          </p>
+          <p>
+           <strong>Password </strong> : password
+          </p>
+        </div>
           <Button
             variant="primary"
             type="submit"
@@ -107,6 +118,7 @@ const Login = () => {
             ) : 'Sign In'}
           </Button>
         </Form>
+
         
         <div className="text-center mt-3">
           <p className="small text-muted">
